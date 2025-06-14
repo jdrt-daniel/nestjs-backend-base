@@ -13,18 +13,13 @@
 
 Para usar este proyecto como base de un nuevo proyecto, debe seguir los siguientes pasos:
 
-- Crear nuevo proyecto en [Github](https://gitlab.agetic.gob.bo/projects/new) y clonarlo en local
-- Añadir este proyecto como otro origen, ejecutar dentro del nuevo proyecto:
+- Clonar el proyecto en local
 
 ```
-git remote add origin
+git remote add origin https://github.com/jdrt-daniel/nestjs-backend-base
 ```
 
-- Descargar los commits desde el 2.º origen, ejecutar
-
-```
-git pull origin2 master --allow-unrelated-histories
-```
+- Restaurar la base de datos de la carpeta `database/database-pg.sql`
 
 ## Tecnologías
 
